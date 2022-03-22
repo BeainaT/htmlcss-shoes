@@ -6,7 +6,7 @@
 }
 /*HEADER*/
 .nav-container {
-    width: 100%;
+    max-width: 1280px;
     background-color: transparent;
     position: relative;
 }
@@ -36,4 +36,18 @@
     right: 0;
     z-index: 9;
 }
+/*main*/
+section {
+    height: 100vh;
+}
+#red-page {
+    background-color: red;
+}
+#green-page {
+    background-color: green;
+}
+#yellow-page {
+    background-color: yellow;
+}
+
 
