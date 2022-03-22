@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
 /*HEADER*/
 .nav-container {
     max-width: 1280px;
@@ -39,6 +42,7 @@
 /*main*/
 section {
     height: 100vh;
+    position: relative;
 }
 
 #red-page {
@@ -49,7 +53,6 @@ section {
 }
 #yellow-page {
     background-color: yellow;
-    color: green;
 }
 .item {
     position: absolute;
@@ -57,7 +60,6 @@ section {
     left:50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: yellow;
 }
 img {
     height: 50vh;
@@ -66,6 +68,9 @@ h2 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 24px;
+    color: yellow;
 }
-
+#yellow-page h2 {
+    color: green;
+}
 
